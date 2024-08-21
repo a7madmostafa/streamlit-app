@@ -1,10 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-# import os
-
-# # Set the working directory
-# os.chdir('h:\\My Drive\\IBM Data Science G2\\02- Data Visualization\\DV_03\\03- Assignments')
 
 # Load data
 df = pd.read_csv('canadian_immegration_data.csv')
